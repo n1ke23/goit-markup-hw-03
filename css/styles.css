@@ -6,6 +6,13 @@
   --bg: #f5f4fa;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+}
+
 .link {
   margin: 0;
   padding: 0;
@@ -37,10 +44,7 @@
 
 /*  logo */
 header{
-  border: 1px solid #ECECEC;
-}
-
-header .container {
+  border-bottom: 1px solid #ECECEC;
   padding-top: 24px;
   padding-bottom: 25px;
 
@@ -223,21 +227,25 @@ header .container {
 
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.about {
+  padding-bottom: 0;
 }
 
-.about .flex {
+.about-list .flex {
   flex-wrap: wrap;
 }
 
-.about .item {
-  width: calc((100% - 30 * 3) / 4);
+.about-list .item {
+  width: calc((100% - 30px * 3) / 4);
 }
 
-.about .item + .item {
+.about-list .item + .item {
   margin-left: 30px;
 }
 
-.about .img {
+.about-list .img {
   justify-content: center;
   align-content: center;
   height: 120px;
@@ -245,11 +253,10 @@ header .container {
   border-radius: 4px;
 }
 
-.section-title {
+.item-title {
   margin: 0;
   margin-bottom: 10px;
   padding-top: 30px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -273,13 +280,10 @@ header .container {
 }
 
 /* чем мы занимаемся */
-.work {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 
 .work .item {
-  width: calc((100% - 30 * 2) / 3);
+  width: calc((100% - 30px * 2) / 3);
 }
 
 .work .item + .item {
@@ -319,8 +323,6 @@ header .container {
 /* НАША КОМАНДА */
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background: var(--bg);
 }
 
@@ -330,17 +332,13 @@ header .container {
   flex-direction: column;
 }
 
-.team-title {
+.section-title {
   margin: 0;
   margin-bottom: 50px;
   text-align: center;
-
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--heading-text-color);
 }
 
@@ -349,8 +347,7 @@ header .container {
 }
 
 .team .item {
-  padding-bottom: 30px;
-  width: calc((100% - 30 * 3) / 4);
+  width: calc((100% - 30px * 3) / 4);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -362,8 +359,7 @@ header .container {
   padding-top: 30px;
   padding-right: 30px;
   padding-left: 30px;
-
-
+  padding-bottom: 30px;
 }
 
 .team-name {
@@ -419,7 +415,7 @@ footer {
 }
 
 .first-contaner{
-  width: calc(50 - 15);
+  width: calc(50% - 15px);
 }
 
 .logo-footer {
@@ -490,10 +486,7 @@ footer {
 
 } */
 
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 
 .portfolio-buttons {
   justify-content: center;
@@ -501,13 +494,14 @@ footer {
 
 .portfolio-filter .item {
   width: 370px;
-  height: calc((100% - 30 * 2) / 3);
+  width: calc((100% - 30px * 2) / 3);
 }
 
 .container-text {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+  padding-right: 24px;
 }
 
 .example-titel {
