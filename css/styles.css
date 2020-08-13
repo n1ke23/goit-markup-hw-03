@@ -106,9 +106,16 @@
   margin-left: 30px;
 }
 
+.contacts-imail img,
+.contacts-phone img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 .contacts-imail,
 .contacts-phone {
   color: var(--title-text-color);
+
 }
 .contacts .contacts-imail:hover,
 .contacts .contacts-imail:focus,
@@ -342,6 +349,8 @@
 
 .team-name {
   margin: 0;
+  margin-bottom: 10px;
+  padding-top: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -354,6 +363,7 @@
 
 .team-position {
   margin: 0;
+  padding-bottom: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
