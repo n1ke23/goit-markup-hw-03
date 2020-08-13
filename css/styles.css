@@ -400,6 +400,7 @@ footer {
 
 .adress-footer {
   padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .adress-text {
@@ -413,7 +414,7 @@ footer {
 }
 
 .adress-imail {
-  padding-top: 9px;
+  margin-top: 9px;
 
   font-family: Roboto;
   font-style: normal;
