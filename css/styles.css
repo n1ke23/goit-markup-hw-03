@@ -418,6 +418,10 @@ footer {
   padding-bottom: 60px;
 }
 
+.first-contaner{
+  width: calc(50 - 15);
+}
+
 .logo-footer {
   color: var(--interactive-text-color);
   font-family: Raleway;
@@ -430,6 +434,7 @@ footer {
 }
 
 .adress-footer {
+  flex-direction: column;
   padding-top: 20px;
   padding-bottom: 0px;
 }
