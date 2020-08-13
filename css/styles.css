@@ -9,8 +9,8 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -98,7 +98,6 @@ header{
 .contacts {
   align-items: center;
   margin-left: auto;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -144,7 +143,6 @@ header{
   margin-left: auto;
   margin-right: auto;
   width: 696px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -178,7 +176,6 @@ header{
   border: 1px solid transparent;
   margin-left: auto;
   margin-right: auto;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -195,7 +192,6 @@ header{
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -269,7 +265,6 @@ header{
 
 .section-text {
   margin: 0;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
